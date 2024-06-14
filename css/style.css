@@ -7,3 +7,27 @@ RESET
     margin: 0;
     box-sizing: border-box;
 }
+
+/*
+FOOTER
+*/
+
+.row {
+height: 55px;
+width: 100%
+display: flex;
+justify-content: space-between;
+}
+
+.footer{
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.row>div {
+    width: calc(100%/3);
+}
